@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+    background-color: lightpink;
+    /* margin-top:0px; */
+    padding: 0px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li{
+    cursor:crosshair;
+    position:relative;
+    padding-left: 25px;
+    background: lightskyblue;
+    font-size: large;
+    transition: .1s;
+    border : dotted;    
+
+}
+
+.close {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+    float: right;
+}
+
+
+ul li:hover {
+    background:whitesmoke;
+    transition: 0.1s;
+}
+
+
+.addBtn{
+    background-color: azure;
+    color: rgb(15, 2, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>   
+    <div id="myDIV" class="header">
+        <h2>To-Do-List</h2>
+        <input type="text" id="myInput" placeholder="Add new task">
+        <span onclick="newElement(); 
+          document.getElementById('myInput').value = ''" class="addBtn">Enter</span>
+        <!-- <span class="close">&times;</span> -->
+    </div>
+    
+
+    <ul id="myUL">
+      <li>Shopping</li>
+      <li>Meeting at work</li>
+      <li>Groceries</li>
+      <li>Volunteer</li>
+    </ul>
+
+
+    <script src="todolist.js"></script>
+  </body>
+</html>
